@@ -18,11 +18,11 @@ class autocomplete_tv : AppCompatActivity() {
 
         val countries = resources.getStringArray(R.array.country_list)
 
-        // Spinner style adapter
+
         val adapter = ArrayAdapter(this,android.R.layout.simple_spinner_dropdown_item,countries)
 
         myauto.setAdapter(adapter)
-        myauto.threshold = 1   // start suggesting after typing 1 letter
+        myauto.threshold = 1
 
         mybtn.setOnClickListener {
             val s = myauto.text.toString()

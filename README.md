@@ -1,3 +1,4 @@
+
 • My Android Tasks – Kotlin Practice
 
 This repository contains small Android development tasks and practice projects built using Kotlin.
@@ -19,7 +20,7 @@ Myandroidtasks/
 │
 └── build.gradle
 
-• How to Run
+• How to  Run
 
 Clone the repository:
 git clone https://github.com/Sibasish45/Myandroidtasks.git

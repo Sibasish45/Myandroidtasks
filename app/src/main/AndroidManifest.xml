@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo1">
         <activity
+            android:name=".sharedpref"
+            android:exported="false" />
+        <activity
+            android:name=".home_intent"
+            android:exported="false" />
+        <activity
+            android:name=".login_Intent1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".autocomplete_tv"
             android:exported="true">
             <intent-filter>
@@ -47,18 +62,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".radio_btn"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".rd_btn"
-            android:exported="false" />
         <activity
             android:name=".res_editext"
             android:exported="true">

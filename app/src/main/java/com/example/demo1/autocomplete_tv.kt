@@ -37,7 +37,6 @@ class autocomplete_tv : AppCompatActivity() {
 
 
 
-
 //package com.example.demo1
 //
 //import android.os.Bundle
